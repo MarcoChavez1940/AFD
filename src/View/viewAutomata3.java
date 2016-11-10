@@ -75,7 +75,7 @@ public class viewAutomata3 extends javax.swing.JFrame {
 
         String cadena = txtCadena.getText();
         
-        AFD.automata2(cadena);
+        AFD.cadenaParYCeroPar(cadena);
         
     }//GEN-LAST:event_btnComprobarActionPerformed
 

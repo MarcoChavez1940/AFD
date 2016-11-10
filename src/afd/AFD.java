@@ -50,9 +50,9 @@ public class AFD {
     
     }
     
-    public static void automata2(String cadena){ 
+    public static void ceroYUnoImpar(String cadena){ 
         try{  
-            File  archivo = new File("terminacion_0.txt");
+            File  archivo = new File("cero_y_uno_impares.txt");
             Scanner lectura = new Scanner(archivo);
             String estados = lectura.nextLine(); 
             String cadenas = lectura.nextLine();
@@ -86,9 +86,9 @@ public class AFD {
     
     }
     
-    public static void automata3(String cadena){ 
+    public static void cadenaParYCeroPar(String cadena){ 
         try{  
-            File  archivo = new File("terminacion_0.txt");
+            File  archivo = new File("cadena_par_y_con_ceros_par.txt");
             Scanner lectura = new Scanner(archivo);
             String estados = lectura.nextLine(); 
             String cadenas = lectura.nextLine();

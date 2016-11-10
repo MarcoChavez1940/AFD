@@ -16,6 +16,7 @@ public class Main {
     public static void main(String[] args) {
         viewMenu viewMenu = new viewMenu();
         viewMenu.setVisible(true);
+        viewMenu.setResizable(false);
     }
     
 }

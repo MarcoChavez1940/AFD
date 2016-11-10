@@ -69,9 +69,9 @@ public class viewMenu extends javax.swing.JFrame {
 
         jLabel2.setText("Cadenas que terminan en cero");
 
-        jLabel3.setText("Pendiente");
+        jLabel3.setText("Cadenas con uno y cero impares");
 
-        jLabel4.setText("Pendiente");
+        jLabel4.setText("Cadenas par y con cantidad de ceros par");
 
         jButton4.setText("Probar un automata propio");
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -89,30 +89,26 @@ public class viewMenu extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(33, 33, 33)
-                        .addComponent(jLabel1))
-                    .addGroup(layout.createSequentialGroup()
+                        .addGap(21, 21, 21)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(21, 21, 21)
-                                .addComponent(jLabel2))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(69, 69, 69)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel4)
-                                    .addComponent(jLabel3))))
-                        .addGap(26, 26, 26)
+                            .addComponent(jLabel3)
+                            .addComponent(jLabel2)
+                            .addComponent(jLabel4))
+                        .addGap(18, 18, 18)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jButton2)
                             .addComponent(jButton1)
                             .addComponent(jButton3)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(33, 33, 33)
+                        .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(53, 53, 53)
                         .addComponent(jLabel5))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(93, 93, 93)
                         .addComponent(jButton4)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(72, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -144,22 +140,26 @@ public class viewMenu extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
          viewAutomata1 viewautomata1 = new viewAutomata1();
          viewautomata1.setVisible(true);
+         viewautomata1.setResizable(false);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
 
         viewAutomataPropio view = new viewAutomataPropio();
         view.setVisible(true);
+        view.setResizable(false);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
          viewAutomata2 viewautomata2 = new viewAutomata2();
          viewautomata2.setVisible(true);
+         viewautomata2.setResizable(false);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
          viewAutomata3 viewautomata3 = new viewAutomata3();
          viewautomata3.setVisible(true);
+         viewautomata3.setResizable(false);
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**

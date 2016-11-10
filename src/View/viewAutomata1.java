@@ -75,7 +75,7 @@ public class viewAutomata1 extends javax.swing.JFrame {
 
         String cadena = txtCadena.getText();
         
-        AFD.automata2(cadena);
+        AFD.terminacionEnCero(cadena);
         
     }//GEN-LAST:event_btnComprobarActionPerformed
 
