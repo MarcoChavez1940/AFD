@@ -5,7 +5,10 @@
  */
 package afd;
 
+import View.viewAutomata1;
+import java.awt.Component;
 import java.util.ArrayList;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -36,17 +39,14 @@ public class Verificar {
             transiciones.clear(); //Se vacia el conjunto de transiciones.
         }
         
-        /*if(finales.contains(Estadoaux)){
-            System.out.println("Aceptada");
-        }
-        else{
-            System.out.println("No aceptada");
-        }*/
+        
+        Component viewCadena = null;
         if(finales.contains(Estadoaux)){
-            System.out.println("aceptado");
+            
+            JOptionPane.showMessageDialog(viewCadena, "Aceptado" );
         }
         else{
-            System.out.println("no aceptado");
+            JOptionPane.showMessageDialog(viewCadena, "No Aceptado" );
         }
         
     }
